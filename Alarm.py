@@ -4,6 +4,8 @@ Created on Sat Jan 19 15:08:53 2019
 
 @author: magnu
 """
+
+#Hello m8
 from pygame import mixer 
 import schedule
 import time
