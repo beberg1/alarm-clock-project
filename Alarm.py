@@ -23,7 +23,7 @@ def job():
     mixer.music.stop()
     return
 
-schedule.every().day.at("15:28").do(job)
+schedule.every().day.at("19:57").do(job)
 
 while True:
     schedule.run_pending()
