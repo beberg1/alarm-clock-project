@@ -5,7 +5,7 @@ Created on Sat Jan 19 15:08:53 2019
 @author: magnu
 """
 
-#Hello m8
+# Importing necessary libraries
 from pygame import mixer 
 import schedule
 import time
@@ -13,7 +13,9 @@ import time
 mixer.init()
 mixer.music.load('E:\Python prosjekt\Morgen\sang.mp3')
 
-# EKSEMPEL
+
+
+# Defining function to be run when user is going to wake up
 def job():
     print("God morgen")
     mixer.music.play()
