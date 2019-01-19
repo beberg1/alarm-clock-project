@@ -11,7 +11,7 @@ import schedule
 import time
 
 mixer.init()
-mixer.music.load('E:\Python prosjekt\Morgen\sang.mp3')
+mixer.music.load('sang.mp3')
 
 
 
