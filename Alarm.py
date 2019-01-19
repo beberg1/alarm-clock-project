@@ -11,7 +11,7 @@ import time
 mixer.init()
 mixer.music.load('E:\Python prosjekt\Morgen\sang.mp3')
 
-
+# EKSEMPEL
 def job():
     print("God morgen")
     mixer.music.play()
